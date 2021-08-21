@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,94 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Apple iMac </title>
 </head>
+
 <body>
-    
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="images/mac.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                        <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU,
+                            and 16-core Neural Engine 8GB unified memory 256Gb SSD storage Two Thunderbolt / USB 4 ports
+                            Magic Mouse Magic Keyboard - Us English</p>
+
+                        <div class="memory">
+                            <h4>Memory</h4>
+                            <button id="memory1-number">8GB Unified memory</button>
+                            <button id="memory2-number">16GB Unified memory</button>
+                        </div>
+                        <div class="storage">
+                            <h5>Storage</h5>
+                            <button id="storage1-number">256GB SSD Storage</button>
+                            <button id="storage2-number">512GB SSD Storage</button>
+                            <button id="storage3-number">1TB SSD Storage</button>
+                        </div>
+                        <div class="delivery">
+                            <h5>Choose your delivery option</h5>
+                            <button id="free-charge">Friday, Aug 25 FREE Prime Delivery</button>
+                            <button id="paid-charge">Friday, Aug 21 Delivery Charge $20</button>
+                        </div>
+
+                        <div class="price">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <h6>Best Price</h6>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h6>$<span id="best-price">1299</span> </h6>
+                                        </div>
+                                        <hr>
+                                        <div class="col-md-8">
+                                            <h6>Extra Memory Cost</h6>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h6>$<span id="extra-memory">0</span></h6>
+                                        </div>
+                                        <hr>
+                                        <div class="col-md-8">
+                                            <h6>Extra Storage Cost</h6>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h6>$<span id="extra-storage">0</span></h6>
+                                        </div>
+                                        <hr>
+                                        <div class="col-md-8">
+                                            <h6>Delivery Charge</h6>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h6>$<span id="delivery-charge">0</span></h6>
+                                        </div>
+                                        <hr>
+                                        <div class="col-md-8">
+                                            <h6>Total Price</h6>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <h6>$1299</h6>
+                                        </div>
+                                    </div>
+                                    <div class="promo-code">
+                                        <p>Add Promo Code</p>
+                                    <input type="text" id="input-field">
+                                    <button id="apply-button">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-center">Total:<span id="total">1299</span> </h2>
+            </div>
+        </section>
+    </main>
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -54,3 +54,17 @@ function calculateTotal(){
     document.getElementById('total-price').innerText = bestPrice;
     document.getElementById('total').innerText = bestPrice;
 }
+
+
+// promo code
+
+document.getElementById('apply-button').addEventListener('click', function(){
+    let inputField = document.getElementById('input-field');
+    let inputFieldName = inputField.value;
+   let totalPrice = document.getElementById('total');
+   let total = totalPrice.innerText;
+   if(inputFieldName == 'stevekaku'){
+    totalPrice.innerText = total - (total * (20 / 100));
+   }
+   inputField.value = '';
+})

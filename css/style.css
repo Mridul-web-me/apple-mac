@@ -28,3 +28,17 @@ button:hover {
 .promo-code {
     margin: 20px 0;
 }
+
+#success {
+    display: none;
+}
+
+#fail {
+    display: none;
+}
+
+.border {
+    width: 330px;
+    background: #000;
+    height: 4px;
+}

@@ -65,6 +65,19 @@ document.getElementById('apply-button').addEventListener('click', function(){
    let total = totalPrice.innerText;
    if(inputFieldName == 'stevekaku'){
     totalPrice.innerText = total - (total * (20 / 100));
+    const fail = document.getElementById('fail');
+    fail.style.display = 'none';
+    const success = document.getElementById('success');
+    success.style.display = 'block';
+    const button = document.getElementById('apply-button');
+    button.setAttribute('disabled', true)
+   }
+   else{
+    const fail = document.getElementById('fail');
+    fail.style.display = 'block';
+    const success = document.getElementById('success');
+    success.style.display = 'none';
    }
    inputField.value = '';
 })
+
